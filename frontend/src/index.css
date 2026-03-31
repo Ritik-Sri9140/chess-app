@@ -1,0 +1,195 @@
+/* * {
+  user-select: none;
+  pointer-events: auto;
+}
+
+body {
+  margin: 0;
+  background: #0b1120;
+  color: #e5e7eb;
+  font-family: 'Inter', sans-serif;
+  overflow-x: hidden;
+} */
+
+/* Layout */
+/* .app-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+} */
+
+/* Navbar */
+/* nav {
+  background: #020617;
+  padding: 12px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #1f2937;
+}
+
+nav a {
+  color: #e5e7eb;
+  text-decoration: none;
+  margin-right: 15px;
+  font-weight: 500;
+}
+
+nav a:hover {
+  color: #22c55e;
+} */
+
+/* Buttons */
+/* button {
+  padding: 10px 16px;
+  background: linear-gradient(135deg, #22c55e, #16a34a);
+  border: none;
+  border-radius: 8px;
+  color: white;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+button:hover {
+  transform: scale(1.05);
+} */
+
+/* Inputs */
+/* input {
+  padding: 10px;
+  margin: 8px 0;
+  border-radius: 6px;
+  border: none;
+  width: 100%;
+} */
+
+/* Centered pages */
+/* .page-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+} */
+
+/* Card */
+/* .card {
+  background: #020617;
+  padding: 25px;
+  border-radius: 12px;
+  width: 350px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+}
+
+.spinner {
+  width: 40px;
+  height: 40px;
+  border: 4px solid #1f2937;
+  border-top: 4px solid #22c55e;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+  margin: auto;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, #9cb8f9, #57e747);
+  color: white;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* 🔥 CENTER CONTAINER */
+.auth-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+
+/* 💎 CARD */
+.auth-card {
+  background: #1e293b;
+  padding: 30px;
+  border-radius: 16px;
+  width: 350px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+  text-align: center;
+}
+
+/* 🧾 INPUT */
+.auth-card input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 8px;
+  border: none;
+}
+
+/* 🔘 BUTTON */
+.auth-card button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  background: #22c55e;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* 🔁 LINK BUTTON */
+.link-btn {
+  margin-top: 10px;
+  background: #3b82f6 !important;
+}
+
+/* 🏠 HOME BUTTON */
+.home-btn {
+  background: #ef4444 !important;
+}
+
+.login-btn {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  background: #22c55e;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.register-btn {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  background: #22c55e;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* Selects any button when hovered */
+button:hover {
+  background-color: blue;
+  color: white;
+}
+
+.card {
+  background: #1e293b;
+  padding: 20px;
+  border-radius: 12px;
+  width: 150px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
+}
